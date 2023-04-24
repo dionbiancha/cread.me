@@ -1,0 +1,17 @@
+:root {
+  font-family: "azo-sans-web", sans-serif;
+  color: #ffffff;
+  background-color: #140317;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  user-select: none;
+}
+
+p,
+h1,
+h2 {
+  z-index: 2;
+}
