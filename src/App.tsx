@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 function App() {
-  return <></>;
+  useEffect(() => {
+    serviceWorkerRegistration.register();
+  }, []);
+
+  return <div>Hello world</div>;
 }
 
 export default App;
